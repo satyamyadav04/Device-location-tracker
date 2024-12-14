@@ -1,0 +1,7 @@
+function generateDeviceId() {
+  return 'Device_' + Math.random().toString(36).substr(2, 9);
+}
+
+module.exports = {
+  generateDeviceId
+};
